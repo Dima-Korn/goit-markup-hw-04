@@ -109,10 +109,6 @@ body {
   color: #404bbf;
 }
 
-.nav-links-list-content:not(:hover) {
-  color: #2e2f42;
-}
-
 .nav-links-list-content::after {
   width: 48px;
   height: 4px;

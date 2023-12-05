@@ -146,16 +146,14 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(
-      to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    )
-    url(.im);
+    ),
+    url(../images/bg_image/7e83b6c8ee4603ea892aa8aaebb3c5fe.jpg);
+  background-size: cover;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  color: #fff;
-  text-align: center;
 }
 
 .offer-text {

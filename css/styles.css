@@ -113,7 +113,7 @@ body {
   color: #2e2f42;
 }
 
-.nav-links-list-content:hover::after {
+.nav-links-list-content::after {
   width: 48px;
   height: 4px;
   border-radius: 2px;

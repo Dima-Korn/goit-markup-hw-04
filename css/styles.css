@@ -43,6 +43,9 @@ body {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .container-head {
@@ -95,20 +98,31 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
 }
 
-.nav-links-list-content:hover {
-  color: #404bbf;
-}
+.nav-links-list-content:hover,
 .nav-links-list-content:focus {
   color: #404bbf;
 }
 
-.nav-links-list-content:active {
-  color: #404bbf;
+.nav-links-list-content:not(:hover) {
+  color: #2e2f42;
+}
+
+.nav-links-list-content:hover::after {
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: -1px;
 }
 
 .address-style {

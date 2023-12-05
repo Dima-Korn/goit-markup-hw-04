@@ -243,6 +243,17 @@ body {
   width: calc((100%-72px) / 4);
 }
 
+.adv-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background-color: #f4f4fd;
+}
+
 .advantages-header-text {
   font-size: 20px;
   font-weight: 500;

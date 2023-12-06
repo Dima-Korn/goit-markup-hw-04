@@ -379,10 +379,11 @@ body {
   transform: translateY(0%);
 }
 
-.portfolio-list-item:hover {
+.portfolio-list-item:hover .app-descr-text {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 
 .app-image-box {
@@ -432,10 +433,20 @@ body {
   color: #434455;
 }
 
+/* Footer */
+
 .foot-style {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-box {
+  display: flex;
+}
+
+.logo-text-box {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -463,4 +474,11 @@ body {
   text-align: left;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.foot-socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }

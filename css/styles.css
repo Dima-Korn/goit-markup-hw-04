@@ -345,13 +345,22 @@ body {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-item-link:hover,
+.socials-item-link:focus {
+  background-color: #404bbf;
 }
 
 .socials-icon {
   fill: #f4f4fd;
 }
 
-/* Products Section */
+/* Portfolio Section */
 
 .product-list {
   display: flex;

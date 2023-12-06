@@ -391,7 +391,10 @@ body {
 }
 
 .app-descr-text {
+  position: absolute;
+  top: 0;
   color: #f4f4fd;
+  background-color: #4d5ae5;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

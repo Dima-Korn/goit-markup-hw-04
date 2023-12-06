@@ -335,6 +335,22 @@ body {
   padding-bottom: 32px;
 }
 
+.socials-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.socials-item-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.socials-icon {
+  fill: #f4f4fd;
+}
+
 /* Products Section */
 
 .product-list {

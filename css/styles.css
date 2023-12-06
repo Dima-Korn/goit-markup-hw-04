@@ -443,6 +443,7 @@ body {
 
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-text-box {

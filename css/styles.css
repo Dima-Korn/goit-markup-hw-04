@@ -327,14 +327,12 @@ body {
   color: #434455;
 }
 
-.socials-box {
-}
-
 .socials-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  padding-bottom: 32px;
 }
 
 /* Products Section */

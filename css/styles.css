@@ -299,8 +299,11 @@ body {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.team-image-box {
+  padding: 32px 0;
+}
+
 .team-card-text-content {
-  padding-top: 32px 0;
 }
 
 .team-member-name {

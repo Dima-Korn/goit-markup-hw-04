@@ -477,9 +477,23 @@ body {
   max-width: 264px;
 }
 
+.foot-social-par {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
 .foot-socials-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+.social-media .socials-item-link:hover,
+.social-media .socials-item-link:focus {
+  background-color: #31d0aa;
 }
